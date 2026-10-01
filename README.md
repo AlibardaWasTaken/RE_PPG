@@ -3,14 +3,15 @@
 <img src="assets/re_ppg.png" alt="RE_PPG Logo" width="104" height="104" />
 
 # RE_PPG
+**Authors**: [dyad](https://discord.gg/J79r4Ypttr) & [alibarda](https://discord.gg/9prx7RUNPY)
 
 **Restoring C# Mod Compilation to People Playground**
 
-[![Latest Release](https://img.shields.io/github/v/release/AlibardaWasTaken/RE_PPG-The-community-mod-loader?style=for-the-badge&logo=github&color=2ea44f)](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/AlibardaWasTaken/RE_PPG?style=for-the-badge&logo=github&color=2ea44f)](https://github.com/AlibardaWasTaken/RE_PPG/releases/latest)
 [![People Playground](https://img.shields.io/badge/People%20Playground-v1.27%2B-orange?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/1118200/People_Playground/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?style=for-the-badge&logo=windows)](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader)
-[![Updater](https://img.shields.io/badge/Updater-RSA--3072%20Signed-success?style=for-the-badge&logo=shield)](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader)
-[![Compiler](https://img.shields.io/badge/Compiler-Microsoft%20Roslyn-purple?style=for-the-badge&logo=c-sharp)](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?style=for-the-badge&logo=windows)](https://github.com/AlibardaWasTaken/RE_PPG)
+[![Updater](https://img.shields.io/badge/Updater-RSA--3072%20Signed-success?style=for-the-badge&logo=shield)](https://github.com/AlibardaWasTaken/RE_PPG)
+[![Compiler](https://img.shields.io/badge/Compiler-Microsoft%20Roslyn-purple?style=for-the-badge&logo=c-sharp)](https://github.com/AlibardaWasTaken/RE_PPG)
 
 <p align="center">
   <a href="#why-re_ppg-exists">Why RE_PPG Exists</a> •
@@ -70,7 +71,7 @@ Choose the installation method that best fits your environment:
 ### Option 1: Standalone Installer (Recommended)
 > *Self-contained executable. Requires no pre-installed dependencies.*
 
-1. Download **`RE_PPG-Installer.exe`** from the [Latest Release](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader/releases/latest).
+1. Download **`RE_PPG-Installer.exe`** from the [Latest Release](https://github.com/AlibardaWasTaken/RE_PPG/releases/latest).
 2. Launch the installer. It will automatically detect your People Playground Steam installation.
 3. Click **Install RE_PPG**. The installer configures BepInEx 5.4.23.5 and the latest RE_PPG package automatically.
 4. Launch People Playground through Steam.
@@ -81,7 +82,7 @@ Choose the installation method that best fits your environment:
 > *Ultra-compact (~1.3 MB) installer for users who already have .NET 10 installed.*
 
 1. Ensure the **Windows x64 [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0)** is installed. The regular .NET Runtime alone does not include WPF.
-2. Download and run **`RE_PPG-Installer-net10.exe`** from the [Latest Release](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader/releases/latest).
+2. Download and run **`RE_PPG-Installer-net10.exe`** from the [Latest Release](https://github.com/AlibardaWasTaken/RE_PPG/releases/latest).
 3. Follow the on-screen prompt to install.
 
 If the required runtime is missing, Windows shows a .NET launch dialog with a download button before the installer opens. Download and install the suggested Desktop Runtime, then launch `RE_PPG-Installer-net10.exe` again. Alternatively, use the standalone `RE_PPG-Installer.exe`, which includes its runtime.
@@ -92,7 +93,7 @@ If the required runtime is missing, Windows shows a .NET launch dialog with a do
 > *For manual setups, portable environments, or custom modding managers.*
 
 1. Install **[BepInEx 5.4.23.5 (x64 Mono)](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5)** into your People Playground root directory.
-2. Download **`RE_PPG-base.zip`** from the [Latest Release](https://github.com/AlibardaWasTaken/RE_PPG-The-community-mod-loader/releases/latest).
+2. Download **`RE_PPG-base.zip`** from the [Latest Release](https://github.com/AlibardaWasTaken/RE_PPG/releases/latest).
 3. Extract `RE_PPG-base.zip` into the root directory of People Playground (merging `BepInEx/` and `RE_PPG/` folders).
 4. Launch the game normally.
 
@@ -199,6 +200,5 @@ Create an empty file named <code>disable-runtime.flag</code> inside the <code>RE
 
 ## Credits
 
-- **Authors**: dyad & alibarda
 - **Security & Access Architecture**: Inspired by the architectural work of [s&box](https://sbox.game/) by Facepunch Studios Ltd (Licensed under MIT).
 - **Core Technologies**: [Microsoft Roslyn](https://github.com/dotnet/roslyn), [BepInEx](https://github.com/BepInEx/BepInEx), [Mono.Cecil](https://github.com/jbevain/cecil).
